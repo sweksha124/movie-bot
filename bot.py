@@ -1,10 +1,11 @@
-import os
+
+    
 from flask import Flask
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackContext
 
 # Replace with your bot token
-TOKEN = " 7837107547:AAFHxOOOwSEG_AmCMr38MdZshhMe6GJOdGg"
+TOKEN = "7837107547:AAFHxOOOwSEG_AmCMr38MdZshhMe6GJOdGg"
 
 # Initialize Flask app
 app = Flask(__name__)
